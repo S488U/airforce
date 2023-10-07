@@ -1,13 +1,17 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: rgb(75,75,75);
-    background: radial-gradient(circle, rgba(75,75,75,1) 0%, rgba(0,0,0,1) 100%);
+    background: rgb(75, 75, 75);
+    background: radial-gradient(circle,
+            rgba(75, 75, 75, 1) 0%,
+            rgba(0, 0, 0, 1) 100%);
     color: white;
 }
-
-
 
 a {
     text-decoration: none;
@@ -17,7 +21,7 @@ a {
 .main {
     width: 100%;
     height: 100vh;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,7 +40,7 @@ a {
 
 .main .content h1 {
     font-size: 82px;
-    font-family: 'PT Serif Caption', serif;
+    font-family: "PT Serif Caption", serif;
     text-transform: capitalize;
     margin-bottom: 12px;
     position: relative;
@@ -44,10 +48,12 @@ a {
 }
 
 .main .content h1 span {
-    background: linear-gradient(86deg, rgba(255,153,51,1) 19%, rgba(255,255,255,1) 50%, rgba(19,136,8,1) 89%);
+    background: linear-gradient(86deg,
+            rgba(255, 153, 51, 1) 19%,
+            rgba(255, 255, 255, 1) 50%,
+            rgba(19, 136, 8, 1) 89%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 .main .content a {
@@ -56,13 +62,13 @@ a {
     color: white;
     padding: 8px 13px;
     font-size: 16px;
-    font-family: 'PT Serif Caption', serif;
+    font-family: "PT Serif Caption", serif;
     border-radius: 7px;
     transition: all 100ms;
 }
 
 .main .content a:hover {
-    color:black;
+    color: black;
     background-color: #ddd;
     border: 1px solid black;
 }
@@ -81,15 +87,15 @@ a {
 }
 
 .cards .sub-card {
-    width:300px;
+    width: 300px;
     height: 334px;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
-    font-family: 'PT Serif Caption', serif;
+    font-family: "PT Serif Caption", serif;
     overflow: hidden;
-    /*Glassmorpism effect on cards*/ 
+    /*Glassmorpism effect on cards*/
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(27, 27, 27, 0.75);
@@ -102,10 +108,9 @@ a {
     font-weight: 200;
 }
 
-
 .card-image {
-    width:300px;
-    height:180px;
+    width: 300px;
+    height: 180px;
     transition: all 100ms;
 }
 
@@ -117,7 +122,7 @@ a {
     font-size: 16px;
     color: white;
     background-color: transparent;
-    font-family: 'PT Serif Caption', serif;
+    font-family: "PT Serif Caption", serif;
     font-weight: 200;
     border: 1px solid white;
     padding: 8px 15px;
@@ -145,7 +150,7 @@ a {
 
 .subscriber .sub h1 {
     font-size: 36px;
-    font-family: 'PT Serif Caption', serif;
+    font-family: "PT Serif Caption", serif;
     font-weight: 200;
     color: red;
 }
@@ -158,8 +163,8 @@ a {
     text-align: center;
 }
 
-.subscriber  form {
-    padding:1% 7%;
+.subscriber form {
+    padding: 1% 7%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -167,7 +172,7 @@ a {
     gap: 20px;
 }
 
-.subscriber  form input {
+.subscriber form input {
     padding: 10px 20px;
     font-size: 18px;
     border-radius: 0;
@@ -175,18 +180,17 @@ a {
     border-radius: 5px;
 }
 
-.subscriber  form input:focus,
-.subscriber  form input:active {
+.subscriber form input:focus,
+.subscriber form input:active {
     outline: none;
     box-shadow: none;
 }
 
-
-.subscriber  form input:nth-child(1) {
+.subscriber form input:nth-child(1) {
     width: 300px;
 }
 
-.subscriber  form input:nth-child(2){
+.subscriber form input:nth-child(2) {
     width: 100px;
     background-color: red;
     color: black;
@@ -210,43 +214,43 @@ footer .ft-main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-} 
+}
 
- .footer-content  a{
+.footer-content a {
     color: black;
     font-size: 22px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-family: 'PT Serif Caption', serif;
+    font-family: "PT Serif Caption", serif;
 }
 
- .footer-content  a span {
+.footer-content a span {
     margin-left: 10px;
 }
 
- .links {
+.links {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    gap: 20px
+    gap: 20px;
 }
 
- .links .child-links {
+.links .child-links {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
     padding: 7%;
 }
 
- .links .child-links a {
+.links .child-links a {
     color: black;
     font-size: 16px;
     text-decoration: underline;
     padding: 3px 5px;
-    font-family: 'PT Serif Caption', serif;
+    font-family: "PT Serif Caption", serif;
     text-transform: capitalize;
 }
 
