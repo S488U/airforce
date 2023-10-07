@@ -11,8 +11,9 @@ header {
     background-color: rgba(17, 25, 40, 0.29);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
-    position: sticky;
-
+    position: absolute;
+    z-index: 1;
+    left: 10px;
 }
 
 header nav ul {
