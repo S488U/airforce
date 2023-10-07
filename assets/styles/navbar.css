@@ -1,0 +1,24 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header div a {
+    font-size: 18px;
+}
+
+header nav ul li {
+    margin: 0 25px;
+}
+
+header nav ul li a{
+    font-size: 18px;
+}
