@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
+    background: rgb(75,75,75);
+    background: radial-gradient(circle, rgba(75,75,75,1) 0%, rgba(0,0,0,1) 100%);
     color: white;
 }
 
