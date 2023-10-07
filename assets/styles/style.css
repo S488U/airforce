@@ -66,3 +66,61 @@ a {
     background-color: #ddd;
     border: 1px solid black;
 }
+
+/* cards */
+
+.cards {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 120px 0;
+}
+
+.cards .sub-card {
+    width:300px;
+    height: 334px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-family: 'PT Serif Caption', serif;
+    /*Glassmorpism effect on cards*/ 
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(27, 27, 27, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.cards .sub-card h1 {
+    margin: 10px 0;
+    font-weight: 200;
+}
+
+
+.card-image {
+    width:300px;
+    height:200px
+}
+
+.cards .sub-card a {
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    font-family: 'PT Serif Caption', serif;
+    font-weight: 200;
+    border: 1px solid white;
+    padding: 8px 15px;
+    margin: 21px 0 10px 0;
+    transition: all 100ms;
+}
+
+.cards .sub-card a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
