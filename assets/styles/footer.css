@@ -1,0 +1,66 @@
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: red;
+    height: 250px;
+    position: relative;
+}
+
+footer .ft-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content a {
+    color: black!important;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "PT Serif Caption", serif;
+}
+
+.footer-content a span {
+    margin-left: 10px;
+    color: black!important;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.links .child-links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 7%;
+}
+
+.links .child-links a {
+    color: black;
+    font-size: 16px;
+    text-decoration: underline;
+    padding: 3px 5px;
+    font-family: "PT Serif Caption", serif;
+    text-transform: capitalize;
+}
+
+.copy {
+    position: absolute;
+    bottom: 10px;
+    color: black;
+    font-size: 18px;
+    left: 557px;
+    margin: 15px 0;
+}
