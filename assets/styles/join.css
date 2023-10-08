@@ -109,8 +109,3 @@ input[type="submit"]:hover {
     background-color: white;
     color: black;
 }
-
-footer {
-    position: absolute;
-    bottom: 0;
-}
