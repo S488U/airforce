@@ -85,3 +85,17 @@ h4 {
   li, strong {
     color: #ddd;
   }
+
+  .frames div {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 50px;
+}
+
+iframe {
+    width: 450px;
+    height: 300px;
+}

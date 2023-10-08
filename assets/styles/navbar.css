@@ -78,6 +78,7 @@ header nav ul li a {
 #btn-join:hover {
     background: rgb(71, 70, 70);
     background: linear-gradient(90deg, rgba(71, 70, 70, 1) 0%, rgba(11, 11, 11, 1) 51%, rgba(65, 65, 65, 1) 100%);
+    box-shadow: 0px 0px 10px rgba(134, 134, 134, 0.329);
 }
 
 .nav-link {
