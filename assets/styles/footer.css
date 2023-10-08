@@ -55,12 +55,3 @@ footer .ft-main {
     font-family: "PT Serif Caption", serif;
     text-transform: capitalize;
 }
-
-.copy {
-    position: absolute;
-    bottom: 10px;
-    color: black;
-    font-size: 18px;
-    left: 557px;
-    margin: 15px 0;
-}
