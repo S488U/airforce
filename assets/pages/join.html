@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now | Indian Military</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/assets/styles/navbar.css">
+    <link rel="stylesheet" href="/assets/styles/join.css">
+    <link rel="stylesheet" href="/assets/styles/footer.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/4145934b9b.js" crossorigin="anonymous"></script>
+    <!-- icon -->
+    <link rel="icon" href="assets/images/emblem.png">
+</head>
+<body>
+       <!-- navbar -->
+       <header>
+        <div>
+            <a href="#">
+                <img src="/assets/images/emblem.png" alt="Indian emblem" width="28px">
+                <span>
+                    Indian Military
+                </span>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="" class="nav-link">Home</a></li>
+                <li><a href="airforce.html" class="nav-link">Airforce</a></li>
+                <li><a href="army.html" class="nav-link">Army</a></li>
+                <li><a href="navy.html" class="nav-link">Navy</a></li>
+                <li><a href="join.html" id="btn-join">join</a></li>
+                <li><a href="login.html" id="btn-login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main">
+        
+        <form action="success.html" method="POST">
+            <h2 style="text-align: center;">Registration Form</h2>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            </div>
+            <div>
+                <label for="aadhar">Aadhar:</label>
+                <input type="text" name="aadhar" id="aadhar" placeholder="Enter your Aadhar number" required>
+            </div>
+            <div>
+                <label for="address">Address:</label>
+                <input type="text" name="address" id="address" placeholder="Enter your address" required>
+            </div>
+            <div>
+                <label for="education">Education:</label>
+                <ul class="education" type="none">
+                    <li>
+                        <label for="10">10th</label>
+                        <input type="checkbox" name="education[]" id="10" checked>
+                    </li>
+                    <li>
+                        <label for="12">12th</label>
+                        <input type="checkbox" name="education[]" id="12">
+                    </li>
+                    <li>
+                        <label for="UG">UG</label>
+                        <input type="checkbox" name="education[]" id="UG">
+                    </d>
+                    <li>
+                        <label for="PG">PG</label>
+                        <input type="checkbox" name="education[]" id="PG">
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <label for="service">Service:</label>
+                <ul type="none" class="sections">
+                    <li>
+                        <label for="airforce">Airforce</label>
+                        <input type="radio" name="service" id="airforce">
+                    </li>
+                    <li>
+                        <label for="army">Army</label>
+                        <input type="radio" name="service" id="army">
+                    </li>
+                    <li>
+                        <label for="navy">Navy</label>
+                        <input type="radio" name="service" id="navy">
+                    </li>
+                </d>
+            </div>
+            <div>
+                <label for="photo">Photo</label>
+                <input type="file" name="photo" id="photo" accept="image/*" required>
+            </div>
+            <div>
+                <label for="marksheet">10/12th Marksheet:</label>
+                <input type="file" name="marksheet" id="marksheet" accept=".pdf, .doc, .docx" required>
+                <small>Upload the pdf or document file</small>
+            </div>
+            <div>
+                <label for="aadharCopy">Aadhar card copy</label>
+                <input type="file" name="aadharCopy" id="aadharCopy" accept=".pdf" required>
+            </div>
+            <div>
+                <input type="submit" value="submit">
+            </div>
+        </form>        
+    </div>
+
+    <!-- footer starts  -->
+    <footer>
+        <div class="footer-content">
+            <a href="#">
+                <img src="/assets/images/emblem.png" alt="Indian emblem" width="28px">
+                <span>
+                    Indian Military
+                </span>
+            </a>
+        </div>
+        <div class="links">
+            <div class="child-links">
+                <a href="">Font awesome</a>
+                <a href="">udemy</a>
+                <a href="">w3schools</a>
+                <a href="">github</a>
+            </div>
+            <div class="child-links">
+                <a href="">google</a>
+                <a href="">Kerala</a>
+                <a href="">MDN docs</a>
+                <a href="">brainly</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

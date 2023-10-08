@@ -1,0 +1,116 @@
+* {
+    scroll-behavior: smooth;
+    color: white;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: "PT Serif Caption", serif;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0%;
+    font-size: 18px;
+}
+
+.main form {
+    border: 1px solid white;
+    border-radius: 5px ;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.main form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.education, 
+.sections {
+    display: flex;
+    flex-direction: row;
+}
+
+.education li,
+.sections li {
+    margin-left: 20px;
+}
+
+label {
+    margin-top: 7px;
+}
+
+input[type="text"],
+input[type="submit"] {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+input[type="text"],
+input[type="submit"], 
+input[type="file"] {
+    padding: 10px 7px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+
+input[type="file"] {
+    outline: 1px solid grey;
+}
+
+input[type="text"]:focus,
+input[type="submit"]:focus,
+input[type="text"]:active,
+input[type="submit"]:active {
+    outline: none;
+    box-shadow: none;
+}
+
+small {
+    font-size: 11px;
+    color: grey;
+    font-family: "PT Serif Caption", serif;
+    font-weight: 200;
+    margin: 5px 0;
+}
+
+form div:nth-child(7),
+form div:nth-child(8),
+form div:nth-child(9) {
+    padding: 10px 10px;
+    border: 1px solid white     ;
+    margin: 10px 0;
+    border-radius: 5px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(31, 31, 31, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}

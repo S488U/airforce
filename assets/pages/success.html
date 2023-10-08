@@ -8,7 +8,6 @@
     <!-- external stylesheets -->
     <link rel="stylesheet" href="../styles/navbar.css">
     <link rel="stylesheet" href="../styles/footer.css">
-    <link rel="stylesheet" href="../styles/login.css">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,31 +38,31 @@
     </header>
     <!-- navbar ends  -->
 
-    <!-- login page  -->
-    <div class="login">
-        <form action="">
-            <h1>Login </h1>
-            <hr>
-            <br>
-            <div class="username">
-                <label for="username" >Username: </label>
-                <input type="text" placeholder="Enter your username" id="username">
-            </div>
-            <div class="password">
-                <label for="password">password: </label>
-                <input type="password" placeholder="Enter your password" id="password" >
-            </div>
-            <div class="agree">
-                <label id="p-label" for="privacy-checkbox">Do you agree with our privacy policy?</label>
-                <input type="checkbox" id="privacy-checkbox">
-            </div>
-            <div class="submit">
-                <input type="submit">
-            </div>
-        </form>
+    <div class="success">
+            <h1>Registration Successfull</h1>
+            <p>Go back to <a href="/">home page</a>.</p>
     </div>
 
-    <!-- login page ends  -->
+    <style>
+        body {
+            color: white;
+            background-color: black;
+        }
+        .success {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 10rem 0;
+        }
+
+        p {
+            font-size: 22px;
+        }
+    </style>
 
     <!-- footer starts  -->
     <footer>

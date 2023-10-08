@@ -4,6 +4,7 @@ font-family: 'PT Serif Caption', serif;
 scroll-behavior: smooth;
 color: white;
 font-weight: 200;
+font-size: 19px;
 }
 
 
@@ -31,6 +32,7 @@ overflow-x: hidden;
     align-items: center;
     padding-right: 20px;
 }
+
 
 .logo {
     display: block;

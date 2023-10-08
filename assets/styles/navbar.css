@@ -29,7 +29,7 @@ header nav ul {
 }
 
 header div a {
-    font-size: 24px;
+    font-size: 24px !important;
     text-align: center;
     display: flex;
     align-items: center;
@@ -42,10 +42,11 @@ header div a span {
 
 header nav ul li {
     margin: 0 25px;
+    font-size: 19px !important;
 }
 
 header nav ul li a {
-    font-size: 19px;
+    font-size: 19px !important;
 }
 
 #btn-login {
