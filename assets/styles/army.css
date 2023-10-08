@@ -45,6 +45,30 @@
     margin: 0;
     padding-bottom: 500px;
   }
-  .methods{color: white;}
-  .his{color: white;}
-  .noti{color: white;}
+  .methods{
+    color: white;
+}
+  .his{
+    color: white;
+}
+  .noti{
+    color:red;
+    text-align: center;
+}
+
+.noti .scrolling-text {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: scrolling-animation 10s linear infinite;
+  }
+  
+  @keyframes scrolling-animation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  
