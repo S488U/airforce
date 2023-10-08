@@ -17,8 +17,8 @@ body {
 .mybody {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5382528011204482) 0%,
             rgba(0, 0, 0, 1) 100%),
-            url("../images/giphy.gif");
-        /* url("../images/airforce-cards.jpg"); */
+        url("../images/giphy.gif");
+    /* url("../images/airforce-cards.jpg"); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -75,7 +75,9 @@ p {
     border-radius: 4px;
 }
 
-h2,p , li{
+h2,
+p,
+li {
     color: #ddd;
 }
 

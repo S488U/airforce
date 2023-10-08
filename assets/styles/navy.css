@@ -1,26 +1,25 @@
-
 * {
-font-family: 'PT Serif Caption', serif;
-scroll-behavior: smooth;
-color: white;
-font-weight: 200;
-font-size: 19px;
+    font-family: 'PT Serif Caption', serif;
+    scroll-behavior: smooth;
+    color: white;
+    font-weight: 200;
+    font-size: 19px;
 }
 
 
 body {
-background-color: black;
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-overflow-x: hidden;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 
 .mybody {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.53825280112044) 0%,
-    rgba(0, 0, 0, 1) 100%),
-     url("../imgnavy/shipnvy.jpg");
+            rgba(0, 0, 0, 1) 100%),
+        url("../imgnavy/shipnvy.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,8 +53,8 @@ h4 {
     font-size: 18px;
 }
 
-.para{
-    width:50%;
+.para {
+    width: 50%;
     margin: 20px auto;
     text-align: center;
     color: aqua;
@@ -65,9 +64,9 @@ h4 {
 
 }
 
-.contents{
+.contents {
     padding: 10%;
-    color:white;
+    color: white;
 }
 
 .history,
@@ -80,13 +79,14 @@ h4 {
     background-color: red;
     margin: 51px 0 !important;
     border-radius: 4px;
-  }
+}
 
-  li, strong {
+li,
+strong {
     color: #ddd;
-  }
+}
 
-  .frames div {
+.frames div {
     display: grid;
     grid-template-columns: 2fr 2fr;
     justify-content: center;

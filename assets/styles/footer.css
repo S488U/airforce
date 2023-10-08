@@ -18,7 +18,7 @@ footer .ft-main {
 }
 
 .footer-content a {
-    color: black!important;
+    color: black !important;
     font-size: 22px;
     display: flex;
     flex-direction: row;
@@ -29,7 +29,7 @@ footer .ft-main {
 
 .footer-content a span {
     margin-left: 10px;
-    color: black!important;
+    color: black !important;
 }
 
 .links {

@@ -24,7 +24,7 @@ body {
 
 .main form {
     border: 1px solid white;
-    border-radius: 5px ;
+    border-radius: 5px;
     padding: 4%;
     display: flex;
     flex-direction: column;
@@ -41,7 +41,7 @@ body {
     flex-direction: column;
 }
 
-.education, 
+.education,
 .sections {
     display: flex;
     flex-direction: row;
@@ -63,7 +63,7 @@ input[type="submit"] {
 }
 
 input[type="text"],
-input[type="submit"], 
+input[type="submit"],
 input[type="file"] {
     padding: 10px 7px;
     font-size: 18px;
@@ -95,7 +95,7 @@ form div:nth-child(7),
 form div:nth-child(8),
 form div:nth-child(9) {
     padding: 10px 10px;
-    border: 1px solid white     ;
+    border: 1px solid white;
     margin: 10px 0;
     border-radius: 5px;
     backdrop-filter: blur(16px) saturate(180%);
