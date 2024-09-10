@@ -101,7 +101,34 @@
             </div>
             <div>
                 <label for="photo">Photo</label>
-                <input type="file" name="photo" id="photo" accept="image/*" required>
+                <input id="photo" type="file" name="photo" id="photo" accept="image/*" required>
+                <div data-image></div>
+                <style>
+                    .displayImage {
+                        height: 100px;
+                        width: 100px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                        overflow: hidden;
+                    }
+                </style>
+                <script>
+                    const showImage = document.querySelector("[data-image]");
+                    const getImage = document.querySelector("#photo");
+
+                    getImage.addEventListener("change", () => {
+                        const files = getImage.files[0];
+
+                        if (files) {
+                            const ImageURL = URL.createObjectURL(files);
+                            console.log(ImageURL); 
+                            showImage.style.backgroundImage = `url('${ImageURL}')`;
+                            showImage.classList.add("displayImage");
+                        }
+                    })
+
+                </script>
             </div>
             <div>
                 <label for="marksheet">10/12th Marksheet:</label>

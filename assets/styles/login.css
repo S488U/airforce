@@ -87,21 +87,29 @@ input[type="submit"]:hover {
     color: rgb(0, 255, 0);
 }
 
-#p-label {
-    font-size: 16px;
-    word-wrap: break-word;
-    width: 240px;
-}
-
 .agree {
-    position: relative;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
-input[type="checkbox"] {
+.agree label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px !important;
+    color: #8d8d8d;
+}
+
+.agree input {
+    width: 12px;
+}
+
+/* input[type="checkbox"] {
     position: absolute;
     top: 20px;
     right: 87px;
-}
+} */
 
 .username,
 .password,

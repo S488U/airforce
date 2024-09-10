@@ -2,9 +2,27 @@
     font-family: 'PT Serif Caption', serif;
     scroll-behavior: smooth;
     color: white;
-    font-weight: 200;
-    font-size: 19px;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+header nav ul li a { 
+    font-size: 22px !important;
+}
+
+header .airforce_logo {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 28px;
+} 
 
 
 body {
@@ -13,6 +31,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-size: 19px;
 }
 
 
@@ -98,4 +117,9 @@ strong {
 iframe {
     width: 450px;
     height: 300px;
+}
+
+.child-links a,
+footer {
+    font-size: 1.2rem !important;
 }

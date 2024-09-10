@@ -109,10 +109,15 @@ a {
     font-weight: 200;
 }
 
+.ci-container {
+    overflow: hidden;
+}
+
 .card-image {
     width: 300px;
     height: 180px;
-    transition: all 100ms;
+    transform: scale(1);
+    transition: transform 100ms ease-in;
 }
 
 .cards .sub-card:hover .card-image {
