@@ -8,10 +8,8 @@ header {
     width: 98%;
     display: flex;
     justify-content: space-around;
-    border: 1px solid white;
     margin: 10px auto;
-    padding: 10px 0;
-    border-radius: 7px;
+    padding: 10px 0; 
     backdrop-filter: blur(22px) saturate(73%);
     -webkit-backdrop-filter: blur(22px) saturate(73%);
     background-color: rgba(17, 25, 40, 0.29);
@@ -71,12 +69,10 @@ header nav ul li a {
     margin-right: 5px !important;
     transition: all 100ms;
     padding: 5px 20px;
-    background: rgb(38, 36, 36);
     background: linear-gradient(90deg, rgba(38, 36, 36, 1) 0%, rgba(110, 110, 110, 1) 51%, rgba(0, 0, 0, 1) 100%);
 }
 
 #btn-join:hover {
-    background: rgb(71, 70, 70);
     background: linear-gradient(90deg, rgba(71, 70, 70, 1) 0%, rgba(11, 11, 11, 1) 51%, rgba(65, 65, 65, 1) 100%);
     box-shadow: 0px 0px 10px rgba(134, 134, 134, 0.329);
 }

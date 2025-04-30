@@ -6,7 +6,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: rgb(75, 75, 75);
     background: radial-gradient(circle,
             rgba(75, 75, 75, 1) 0%,
             rgba(0, 0, 0, 1) 100%);
@@ -181,7 +180,6 @@ a {
 .subscriber form input {
     padding: 10px 20px;
     font-size: 18px;
-    border-radius: 0;
     border: 1px solid white;
     border-radius: 5px;
 }
